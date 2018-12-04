@@ -1,0 +1,811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>2018 Stockholders' Meeting Online Registration</title>
+   <!-- <link rel="stylesheet" href="css/QapTcha.jquery.css" type="text/css" /> --> 
+</head>
+
+<body id="wrapper" style="border: 5px solid #4f758b; border-radius: 25px;">
+
+<style type="text/css">
+
+
+html {
+	font-family: tahoma, helvetica, sans-serif; 
+	/*font-size: x-small; */
+	font-size: 12px; 
+	color: #454545;
+	margin: 0 auto;
+	padding: 0;
+	width: 85%;
+	/*text-align: center;*/
+	background: #fff url("./images/test-map.png") repeat-x  left top;
+}
+
+  table {  
+	font-family: tahoma, helvetica, sans-serif; 
+	/*font-size: x-small; */
+	font-size: 12px; 
+	color: #454545;
+	margin: 0 auto;
+	padding: 0px;
+	width: 90%;
+	/*min-width: 1200px;*/
+	/*max-width:1200px;*/
+	/*table-layout:fixed;*/
+ }
+ 
+ body {
+	font-family: tahoma, helvetica, sans-serif; 
+	/*font-size: x-small; */
+	font-size: 12px; 
+	color: #454545;
+	margin: 0 auto;
+	padding: 0px;
+	width: 90%;
+	min-width:1000px; 
+ }
+ 
+ form {
+	/*min-width: 900px;*/
+	/*max-width:1300px;*/ 
+ }
+
+ #container {
+	padding: 2px;
+
+}
+  
+h1{ font: normal 180% arial, helvetica, verdana, sans-serif; letter-spacing: normal;  color: #35467e; height: 55px; margin: 0px; padding: 0px 0px 0px;}
+/* updated h1 on 8/29/08 - changed height from 43 px to 55 px and padding from 0 -0-10 to 0-0-0 so side
+bar nav, center content and right side bar content are aligned at the top */  
+h2 { font: bold 150% helvetica, arial,verdana, sans-serif; color: #000; margin: 0 0 10px 0; }
+h3 { font: bold 110% arial, helvetica, verdana, sans-serif; color: #000; margin: 0 0 10px 0; }
+h4 { font: bold 100% tahoma, sans-serif; color: #35467e; margin: 0 0 5px 0; }
+h5 { font: bold 100% tahoma, sans-serif; color: #000; margin: 0 0 5px 0; }
+h6 { font: normal 100% tahoma, sans-serif; color: #35467e; margin: 0 0 5x 0; }
+
+table, textarea, button, select {
+	font-family: arial, helvetica, sans-serif;
+	/*font-size: x-small; */
+	font-size: 12px;
+	/* css 3 */
+ border-radius:5px;
+ /* mozilla */
+ -moz-border-radius:5px;
+ /* webkit */
+ -webkit-border-radius:5px;	
+}
+
+input {
+    /* css 3 */
+ border-radius:5px;
+ /* mozilla */
+ -moz-border-radius:5px;
+ /* webkit */
+ -webkit-border-radius:5px;	
+}
+strong, b {
+	color: #000;
+}
+
+a, .wpsLink{
+	color: #3a728a;
+}
+a:visited, .wpsLink:visited { 
+	//color: #f2a900;
+	color: #f2a900;
+}
+a:active, .wpsLink:active {
+	color: #f2a900;
+}
+
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#wrapper {
+	width: 960px; 
+	margin: 0 auto 15px; 
+	-moz-box-shadow: 0 5px 10px #ccc; 
+	-webkit-box-shadow: 0 5px 10px #ccc; 
+	box-shadow: 0px 0px 80px #000; behavior: url(PIE.htc); 
+	position: relative; 
+	min-height: 746px;
+}
+</style>
+</head>
+
+<body onload="document.tradeshow.Name.focus()">
+
+    <script type="text/javascript" src="/js/jquery.1.6.3.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.formalize.min.js"></script>
+    <script type="text/javascript" src="/js/network.js"></script>
+    <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui.js"></script>
+
+ <!-- <script type="text/javascript" src="js/QapTcha.jquery.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+		  // validate the comment form when it is submitted
+			$("#contactForm").validate();
+		  // Simple call
+			$('.QapTcha').QapTcha({disabledSubmit:true,autoRevert:true});
+			$(".dropError").html("Slide to unlock.");
+			$("#Slider").mouseleave(function() {
+				var n = $(this).css("left");
+				 if (n == "154px") {
+					$('.submit').removeAttr("disabled");
+					$(".dropError").css("color", "green").html("Unlocked!");
+				 }
+				 else {
+					$('.submit').attr("disabled", true);
+					$(".dropError").css("color", "#BB2828").html("Slide to unlock.");
+				 }
+			});
+		});
+    </script>
+ -->    
+
+<script language = "Javascript">
+/**
+ * DHTML email validation script. Courtesy of SmartWebby.com (http://www.smartwebby.com/dhtml/)
+ */
+
+function echeck(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("Invalid E-mail Address")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("Invalid E-mail Address")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("Invalid E-mail Address")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("Invalid E-mail Address")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("Invalid E-mail Address")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("Invalid E-mail Address")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("Invalid E-mail Address")
+		    return false
+		 }
+
+ 		 return true					
+	}
+	
+//Validate the Entered input aganist the generated security code function
+function ValidCaptcha(){
+var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+var str2 = removeSpaces(document.getElementById('txtInput').value);
+
+if (str1 == str2){
+	return true;
+	}else{
+		return false;
+	}
+}
+
+//Remove the spaces from the entered and generated code
+function removeSpaces(string){
+return string.split(' ').join("");
+}
+
+function ValidateForm(){
+	var emailID=document.stockholder.Email;
+	var email1ID=document.stockholder.Email1;
+	var nameID = document.stockholder.Name;
+	var companyID = document.stockholder.Company;
+	var titleID = document.stockholder.Title;
+	var cityID = document.stockholder.City;
+	var stateID = document.stockholder.State;
+	var phoneID = document.stockholder.DaytimePhone;
+	var groupRatesID = document.stockholder.GroupRate;
+	//var bedID = document.stockholder.BedType;
+	var arrivalID = document.stockholder.HotelArrivalDate;
+	var departID = document.stockholder.HotelDepartureDate;
+	var winSunID = document.stockholder.WIN_Sunday;
+	var dinSunID = document.stockholder.Dinner_Sunday;
+	var sgMonID = document.stockholder.SpouseGuest_Monday;
+	var tMonID = document.stockholder.Transportation_Monday;
+	var banqMonID = document.stockholder.HOB_Monday;
+	var tourTuesID = document.stockholder.HOBTrans_Monday;
+	var dinTuesID = document.stockholder.Dinner_Tuesday;
+	
+	
+	if ((nameID.value==null)||(nameID.value=="")){
+		alert("Please Enter your First & Last Name.")
+		nameID.focus()
+		return false
+	}
+	
+	
+	if ((companyID.value==null)||(companyID.value=="")){
+		alert("Please Enter your Company.")
+		companyID.focus()
+		return false
+	}
+	if ((titleID.value==null)||(titleID.value=="")){
+		alert("Please Enter your Title.")
+		titleID.focus()
+		return false
+	}
+	
+	
+	if ((cityID.value==null)||(cityID.value=="")){
+		alert("Please Enter your City.")
+		cityID.focus()
+		return false
+	}
+	
+	if ((stateID.value==null)||(stateID.value=="")){
+		alert("Please Enter your State.")
+		stateID.focus()
+		return false
+	}
+	
+	if ((emailID.value==null)||(emailID.value=="")){
+		alert("Please Enter your Email Address.")
+		emailID.focus()
+		return false
+	}
+	
+	if (emailID.value!=email1ID.value){
+		alert("Email Addresses Do Not Match!")
+		email1ID.focus()
+		return false
+	}
+	
+	if (echeck(emailID.value)==false){
+		emailID.value=""
+		emailID.focus()
+		return false
+	}
+	
+	if ((phoneID.value==null)||(phoneID.value=="")){
+		alert("Please Enter your Cell Phone.")
+		phoneID.focus()
+		return false
+	}
+	
+	if ((groupRatesID.value==null) || (groupRatesID.value=="")){
+		alert("Select a Group Rate.")
+		groupRatesID.focus()
+		return false
+	}
+	
+	//if ((bedID.value==null) || (bedID.value=="")){
+		//alert("Select your preference for Bed Type.")
+		//bedID.focus()
+		//return false
+	//}
+	
+	
+	if ((arrivalID.value==null)||(arrivalID.value=="")){
+		alert("Select your Hotel Arrival Date.")
+		arrivalID.focus()
+		return false
+	}
+	
+	if ((departID.value==null)||(departID.value=="")){
+		alert("Select your Hotel Departure Date.")
+		departID.focus()
+		return false
+	}
+	
+	if ((winSunID.value==null)||(winSunID.value=="")){
+		alert("Please make a selection.")
+		winSunID.focus()
+		return false
+	}
+	
+	
+	if ((dinSunID.value==null)||(dinSunID.value=="")){
+		alert("Please make a selection.")
+		dinSunID.focus()
+		return false
+	}
+	
+	if ((sgMonID.value==null)||(sgMonID.value=="")){
+		alert("Please make a selection.")
+		sgMonID.focus()
+		return false
+	}
+	
+	if ((banqMonID.value==null)||(banqMonID.value=="")){
+		alert("Please make a selection.")
+		banqMonID.focus()
+		return false
+	}
+
+	if ((tourTuesID.value==null)||(tourTuesID.value=="")){
+		alert("Please make a selection.")
+		tourTuesID.focus()
+		return false
+	}
+	
+	if ((dinTuesID.value==null)||(dinTuesID.value=="")){
+		alert("Please make a selection.")
+		dinTuesID.focus()
+		return false
+	}
+	
+	return true
+	
+	
+ }
+</script>
+
+
+
+  <table width="90%" align="center">
+<br />
+<br />
+<tr>
+	<td align="center" width="25%"><h2><strong><font color="#3a728a"><br /><img align="center" src="/MemberPortal/Supplier/2018/aquablu.jpg" width="223" height="149"/></font></strong></h2></td>
+             <td align="center"><h1 style="font-size:30px"><strong><font color= "#3a728a">REGISTRATION FORM</font></strong></h1>
+                <h1><p><strong><font color= "#3a728a">NETWORK 50th Anniversary Stockholders' / Membership Meeting </font></strong><br />
+    		    <strong><font color= "#3a728a">Radisson Blu Aqua Hotel - Chicago, IL</font></strong><br />
+			    <strong><font color= "#3a728a">October 7th-9th, 2018</font></strong></p>
+                </h1>
+<br /><br /><br/><br />
+ <a href="./stockholder" target="_parent" title="">Stockholders' Meeting Home Page</a> </td>
+	  <td align="right"><img src="./images/50th.png" width="200" height="200" alt="NETWORK Logo"/><!--<img  src="./images/logo.png" width="217" height="94" alt="NETWORK Logo"/>--> </td>
+    </tr>
+</table>
+			
+    <form action="http://www.networkdistribution.com:8080/NSCMemUtils/web/stockholder.jsp" method="post" name="stockholder" id="stockholder" onsubmit="return ValidateForm(), checkform(this);">  
+  
+               
+    <table width="90%" align="center">
+    <br />
+        <tr>
+          <td colspan="4" valign="top" align="center">Attendee Registration: <span class="body">(underlined info will appear on your name badge)</span>
+      <input type="hidden" name="subject" value="NETWORK 50th Anniversary Stockholders' / Membership Meeting" />
+      </td>
+          </tr>
+        <tr>
+          <td width="32%" valign="top"><strong><font color="#FF0000">*<u>Full Name</u>:</font></strong></td>
+          <td width="32%" valign="top"><input name="Name" type="text" id="Name" tabindex="1" size="30" maxlength="50" /></td>
+          <td width="16%" valign="top"><strong><font color="#FF0000">*<u>Company</u>:</font></strong></td>
+          <td width="16%" valign="top"><input name="Company" type="text" id="Company" tabindex="2" size="30" maxlength="40" /></td>
+        </tr>
+        <tr>
+          <td valign="top"><strong><font color="#FF0000">*Title:</font></strong></td>
+          <td colspan="3" valign="top"><input name="Title" type="text" tabindex="3" size="30" maxlength="50" id="Title" /></td>
+          </tr>
+        <tr>
+          <td valign="top"><strong><font color="#FF0000">*<u>City</u>:</font></strong></td>
+          <td valign="top"><input name="City" type="text" tabindex="4" size="30" maxlength="30" /></td>
+          <td valign="top"><strong><font color="#FF0000">*<u>State/Province</u>:</font></strong></td>
+          <td valign="top"><select name="State" tabindex="5">
+            <option value="" selected="selected">Select State or Province</option>
+            <option value="AL">Alabama (AL)</option>
+            <option value="AK">Alaska (AK)</option>
+            <option value="AB">Alberta (AB)</option>
+            <option value="AZ">Arizona (AZ)</option>
+            <option value="AR">Arkansas (AR)</option>
+            <option value="CA">California (CA)</option>
+            <option value="CO">Colorado (CO)</option>
+            <option value="CT">Connecticut (CT)</option>
+            <option value="DE">Delaware (DE)</option>
+            <option value="FL">Florida (FL)</option>
+            <option value="GA">Georgia (GA)</option>
+            <option value="HI">Hawaii (HI)</option>
+            <option value="ID">Idaho (ID)</option>
+            <option value="IL">Illinois (IL)</option>
+            <option value="IN">Indiana (IN)</option>
+            <option value="IA">Iowa (IA)</option>
+            <option value="KS">Kansas (KS)</option>
+            <option value="KY">Kentucky (KY)</option>
+            <option value="LA">Louisiana (LA)</option>
+            <option value="ME">Maine (ME)</option>
+            <option value="MB">Manitoba (MB)</option>
+            <option value="MD">Maryland (MD)</option>
+            <option value="MA">Massachusetts (MA)</option>
+            <option value="MI">Michigan (MI)</option>
+            <option value="MN">Minnesota (MN)</option>
+            <option value="MS">Mississippi (MS)</option>
+            <option value="MO">Missouri (MO)</option>
+            <option value="MT">Montana (MT)</option>
+            <option value="NE">Nebraska (NE)</option>
+            <option value="NV">Nevada (NV)</option>
+            <option value="NH">New Hampshire (NH)</option>
+            <option value="NJ">New Jersey (NJ)</option>
+            <option value="NM">New Mexico (NM)</option>
+            <option value="NY">New York (NY)</option>
+            <option value="NC">North Carolina (NC)</option>
+            <option value="ND">North Dakota (ND)</option>
+            <option value="OH">Ohio (OH)</option>
+            <option value="OK">Oklahoma (OK)</option>
+            <option value="ON">Ontario (ON)</option>
+            <option value="OR">Oregon (OR)</option>
+            <option value="PA">Pennsylvania (PA)</option>
+            <option value="RI">Rhode Island (RI)</option>
+            <option value="SC">South Carolina (SC)</option>
+            <option value="SD">South Dakota (SD)</option>
+            <option value="TN">Tennessee (TN)</option>
+            <option value="TX">Texas (TX)</option>
+            <option value="UT">Utah (UT)</option>
+            <option value="VT">Vermont (VT)</option>
+            <option value="VA">Virginia (VA)</option>
+            <option value="WA">Washington (WA)</option>
+            <option value="WV">West Virginia (WV)</option>
+            <option value="WI">Wisconsin (WI)</option>
+            <option value="WY">Wyoming (WY)</option>
+            <option value="AB">Alberta (AB)</option>
+            <option value="BC">British Columbia (BC)</option>
+            <option value="MB">Manitoba (MB)</option>
+            <option value="NB">New Brunswick (NB)</option>
+            <option value="NL">Newfoundland (NL)</option>
+            <option value="NT">Northwest Territories (NT)</option>
+            <option value="NS">Nova Scotia (NS)</option>
+            <option value="NU">Nunavut (NU)</option>
+            <option value="ON">Ontario (ON)</option>
+            <option value="PE">Prince Edward Island (PE)</option>
+            <option value="QC">Quebec (QC)</option>
+            <option value="SK">Saskatchewan (SK)</option>
+            <option value="YT">Yukon (YT)</option>
+            <Option value="Other">Other</Option>
+          </select></td>
+        </tr>
+        <tr>
+          <td valign="top"><strong><font color="#FF0000">*Email Address:<br />
+          (registration confirmation will be sent)
+        </font></strong></td>
+          <td valign="top"><input name="Email" type="text" tabindex="6" size="30" maxlength="50" />
+          <br />
+          <br />
+          <td valign="top"><strong><font color="#FF0000">*Validate Email Address:
+          </font></strong></td>
+          <td valign="top"><input name="Email1" type="text" tabindex="7" size="30" maxlength="50" /></td>
+         </tr>
+         <tr>
+          <td valign="top"><strong><font color="#FF0000">*Cell Phone:</font></strong></td>
+          <td valign="top"><input name="DaytimePhone" type="text" tabindex="7" size="30" maxlength="30" /></td>
+        </tr>
+        <tr>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="4"><h3><div align="center">
+            <div style="padding:0px 0px 0px 0px"><h2><strong><font color= "#3a728a">Hotel Registration: Radisson Blu Aqua Hotel - Chicago, IL</font></strong><br />
+              <strong><font color= "#3a728a">221 N. Columbus Dr, Chicago, IL 60601</font></strong><br />
+              <strong><font color= "#3a728a">312-565-5258</font></strong>
+              <br />
+               <h2><strong><font color= "#FF0000">Registration Deadline: September 7th, 2018</font></strong><br /></h2>  
+            </h2>
+      		<!--<font color= "#3a728a" align="center"><i><a href="https://www.sandiego.org/" align="center">San Diego City Information</a></i></font>-->
+          </div></h3></td>
+          </tr>
+        <tr>
+          <td colspan="2" valign="top">
+            <p>-Taxes are additional and are currently 16.4%.<br />
+            -Check-in: 3:00 pm / Check-out: 12:00 pm.<br />
+            -Bedding requests are not guaranteed, reiterate your needs upon arrival.<br />              
+            -Cancel reservation by 3pm two days prior to arrival to avoid penalty.<br />
+            -Group rate includes guest room internet and health club access.  
+          <br />
+          
+          <br />
+            </p>
+            </td>
+          <td colspan="2" valign="top"><p>-Cancel reservation by 3pm two days prior to arrival to avoid penalty. Additional guests are $30/night. All rooms are non-smoking<br/>
+          -Rates are valid before and after our meeting dates if booked by September 14 and availability exists.
+            <br />
+          </p>
+            </td>
+          </tr> 
+        <tr>
+          <td valign="top"><p><strong><font color="#FF0000">*Hotel Group Rates:</font></strong><br />
+          </p></td>
+          <td colspan="3">
+
+              <select name="GroupRate" id="GroupRate" tabindex="8">
+                <option value="" selected="selected"></option>
+                <option value="Double Queen">Double Queen, $309/night, City &amp; Park Views.</option>
+                <option value="King">King, $309/night, City &amp; Park Views.</option>
+                <option value="No hotel room needed">No hotel room needed.</option>
+                <option value="Making my own reservations">Making my own reservations.</option>
+                <!--<option value="Making Own Reservations">Making Own Reservations</option>-->
+              </select>
+              <!--<br />
+              <p align="left"><strong><font color= "#3a728a"><i><a href="https://aws.passkey.com/go/networkservices2017">Click Here if you are making your own reservations (one night room & tax deposit required)</a></i></font></strong></p>-->
+       <!--<strong><p>Group rates are no longer available.<br /></p></strong> -->      
+              <!--<strong><font color="#FF0000">Room rate for Saturday, September 26th is $399.00 <br />-->
+<!--<br />
+		Rooms with two beds are currently sold out.  <br />
+              There are a few rooms with a King Bed and Pullout Couch available upon request.</font></strong><br />-->
+              <!--
+              	<strong>Standard King or 2 Queen</strong>: Private balcony or patio, large work and sitting area, various views.<br />
+              <br />
+              <strong><em>Limited Availability Suites include: </em></strong><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Sunset Suite King</strong>: Living room w/sofa sleeper; chair/desk; two bathrooms; separate bedroom w/chair; Ocean view.<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;So Cal Suite King</strong>: 
+              Living room w/sofa sleeper; chair/desk; two bathrooms; separate bedroom w/chaise lounge; Views are Ocean w/Lobby/Couryard, Pool or Spa Grotto.<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Huntington Suite King</strong>: 
+              Living room w/sofa sleeper; chair/desk; wet bar; one bathroom; pocket doors to sleeping alcove; Views are Ocean w/pool or Palm Grotto.<br />
+          		
+          </p>--></td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td colspan="3"><!--<p>Alternate Room Types may be available. Please call the hotel to book these room types (rates may fluctuate with hotel occupancy).</p>-->
+            <p><!--Deluxe Corner King (430 sf); $289/night, sgl/dbl, pool or city view<br />
+              Executive King Suite (450 sf.); $299/night, sgl/dbl, city view<br />
+              Deluxe Executive King Suite (490 sf. with sofa bed); $359/night, sgl/dbl, city view
+              <br />
+              Corner Suite (1250 sf.); $945/night, sgl/dbl, partial city view-->
+            </p></td>
+          </tr>
+          <!--
+          <tr>
+          <td valign="top"><strong><font color="#FF0000">*Preferred Bed Type:</font></strong></td>
+          <td colspan="3"><select name="bedType" size="1" id="bedType" tabindex="9">
+            <option value="" selected="selected"></option>
+            <option value="2 Double">2 Double Beds</option>
+            <option value="King">King Bed</option>
+          </select></td>
+        </tr>
+        -->
+        <tr>
+          <td><strong><font color="#FF0000">*Hotel Arrival Date:</font></strong></td>
+          <td colspan="3"><select size="1" name="HotelArrivalDate" id="HotelArrivalDate" tabindex="10">
+            <option value="" selected="selected"></option>
+            <option value="10-05-2018">Friday, October 5th, 2018</option>
+            <option value="10-06-2018">Saturday, October 6th, 2018</option>
+            <option value="10-07-2018">Sunday, October 7th, 2018</option>
+            <option value="10-08-2018">Monday, October 8th, 2018</option>
+            <option value="10-09-2018">Tuesday, October 9th, 2018</option> 
+            <option value="Other">Other *Detail your needs in Special Requests or Comments box</option>
+            <option value="None">None</option>
+            
+          </select></td>
+          </tr>
+
+        <tr>
+          <td><strong><font color="#FF0000">*Hotel Departure Date:</font></strong></td>
+          <td colspan="3"><select size="1" name="HotelDepartureDate" id="HotelDepartureDate" tabindex="11">
+            <option value="" selected="selected"></option>
+            <option value="10-07-2018">Sunday, October 7th, 2018</option>
+            <option value="10-08-2018">Monday, October 8th, 2018</option> 
+            <option value="10-09-2018">Tuesday, October 9th, 2018</option>
+            <option value="10-10-2018">Wednesday, October 10th, 2018</option>
+            <!--<option value="10-26-2017">Thursday, October 26, 2017</option>-->
+            <option value="Other">Other *Detail your needs in Special Requests or Comments box</option>
+            <option value="None">None</option>
+            
+          </select></td> 
+           
+</td>
+        </tr>
+        <tr>
+          <td valign="top">Special Requests:</td>
+          <td colspan="3"><textarea name="SpecialRequests" cols="50" rows="4" wrap="physical" tabindex="12"></textarea></td>
+          </tr>
+        <tr>
+          <td colspan="4">&nbsp;</td>
+          </tr>   
+
+
+
+        <tr>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="4"><hr color="#000000" />
+          GUEST INFORMATION- For Spouses, Guests, Children, etc. <br />
+          <table width="100%">
+            <tr>
+              <td>First Name:</td>
+              <td><input name="Guest_FirstName1" type="text" tabindex="13" size="20" maxlength="30" /></td>
+              <td>Last Name:</td>
+              <td><input type="text" name="Guest_LastName1" size="20" maxlength="40" tabindex="14" /></td>
+              <td>Age
+          (if under 18):</td>
+              <td><input type="text" name="Guest_Age1" tabindex="15" size="20" maxlength="40" /></td>
+            </tr>
+            <tr>
+              <td>First Name:</td>
+              <td><input name="Guest_FirstName2" type="text" tabindex="16" size="20" maxlength="30" /></td>
+              <td>Last Name:</td>
+              <td><input type="text" name="Guest_LastName2" size="20" maxlength="40" tabindex="17" /></td>
+              <td>Age
+          (if under 18):</td>
+              <td><input type="text" name="Guest_Age2" size="20" maxlength="40" tabindex="18" /></td>
+            </tr>
+          </table>
+          <br /></td>
+          </tr>
+        <tr>
+          <td colspan="4"><hr color="#000000" /><br /></td>
+          </tr>
+        <tr>
+          <td colspan="4"><strong><font color="#FF0000">*ACTIVITY SIGNUP:<br />
+          (descriptions in event brochure)</font></strong></td>
+          </tr>
+        <tr>
+          <td colspan="4" align="left"><select size="1" name="WIN_Sunday" id="WIN_Sunday" tabindex="19">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="" selected="selected"></option>
+          </select>
+            <font size="1">(qty)</font> Sunday WIN Lunch &amp; Workshop (11am–2pm) </td>
+          </tr>
+        <tr>
+          <td colspan="4" align="left"><select size="1" name="Dinner_Sunday" id="Dinner_Sunday" tabindex="20">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="" selected="selected"></option>
+          </select>
+            <font size="1">(qty)</font> Sunday Evening Welcome Dinner (6-10pm)</td>
+        </tr>
+        <tr>
+          <td colspan="4" align="left"><select size="1" name="SpouseGuest_Monday" id="SpouseGuest_Monday" tabindex="21">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="" selected="selected"></option>
+          </select>
+            <font size="1">(qty)</font>Monday Guest Outing (10:45am-2pm)</td>
+          </tr>
+        <tr>
+          <td colspan="4" align="left"><select size="1" name="Transportation_Monday" id="Transportation_Monday" tabindex="22">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="" selected="selected"></option>
+          </select>
+            <font size="1">(qty)</font>Monday Guest Outing Transportation (6 min walk)</td>
+        </tr>
+        <tr>
+          <td colspan="4" align="left"><select size="1" name="HOB_Monday" id="HOB_Monday" tabindex="22">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="" selected="selected"></option>
+          </select>
+            <font size="1">(qty)</font>Monday Evening House of Blues Event (6-10pm)</td>
+        </tr>
+        <tr>
+          <td colspan="4" align="left"><select size="1" name="HOBTrans_Monday" id="HOBTrans_Monday" tabindex="22">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="" selected="selected"></option>
+          </select>
+            <font size="1">(qty)</font>Monday Evening House of Blues Event Transportation (15 min walk)</td>
+        </tr>
+        <tr>
+          <td colspan="4"><select size="1" name="Dinner_Tuesday" id="Dinner_Tuesday" tabindex="24">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="" selected="selected"></option>
+          </select>
+          <font size="1">(qty)</font>Tuesday Member Awards Reception &amp; Dinner Event (6-9pm)</td>
+        </tr>
+        <tr>
+          <td>Notes/Comments:</td>
+          <td colspan="3"><textarea name="Comments" cols="50" rows="4" wrap="physical" tabindex="25"></textarea></td>
+          </tr>
+        <tr>
+          <td colspan="4">Questions? Contact Amanda Jackson P: (224) 361-2275 E: ajackson@networkdistribution.com</a></td>
+          </tr>
+        <tr>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td colspan="4">
+          <p><strong>Please enter this registration code prior to submitting the registration.</strong>
+          </p>
+          <p><font color="#DD0000">Enter This Code >></font> <span id="txtCaptchaDiv" style=”color:#fff"></span><!-- this is where the script will place the generated code -->
+			<input type="hidden" id="txtCaptcha" /></label><!-- this is where the script will place a copy of the code for validation -->
+			<input type="text" name="txtInput" id="txtInput" size="15" />
+          </p>
+          
+<!-- <div class="QapTcha"></div>
+<strong></strong>
+            <input type="submit" value="Click here to register" name="submit" tabindex="
+			  26" />         
+              -->
+              <input class="submit" type="submit" value="Click to Register" tabindex="26" onClick="return ValidateForm() && Checkform(this)" />
+              </td>
+          </tr>
+
+      </table>
+
+</form>
+
+<script type="text/javascript">
+function checkform(theform){
+	var why = "";
+	
+	if(theform.txtInput.value ==""){
+		why +="Please enter the code in order to successfully submit the registration form.\n";
+	}
+	if(theform.txtInput.value != ""){
+		if(ValidCaptcha(theform.txtInput.value) == false)
+			{why += "Code did not match. \n";
+		}
+	}
+	if(why !=""){
+		alert(why);
+		return false;
+	}
+}
+
+//Generates the captcha function
+var a = Math.ceil(Math.random() * 9)+ "";
+var b = Math.ceil(Math.random() * 9)+ "";
+var c = Math.ceil(Math.random() * 9)+ "";
+var d = Math.ceil(Math.random() * 9)+ "";
+var e = Math.ceil(Math.random() * 9)+ "";
+
+var code = a + b + c + d + e;
+document.getElementById("txtCaptcha").value = code;
+document.getElementById("txtCaptchaDiv").innerHTML = code
+
+
+</script>
+<br/>
+<br/>
+</body>
+</html>
